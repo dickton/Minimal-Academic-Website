@@ -208,6 +208,13 @@ section {
   color: var(--accent-color);
 }
 
+.author-marker {
+  font-size: 0.8em;
+  vertical-align: super;
+  line-height: 0;
+  margin-left: 0.08em;
+}
+
 .pub-venue-container {
   display: flex;
   flex-wrap: wrap;
@@ -254,6 +261,13 @@ section {
   gap: 0.5rem;
 }
 
+.pub-meta-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+}
+
 .pub-links a {
   color: var(--accent-color);
   transition: all var(--transition-time) ease;
@@ -267,6 +281,13 @@ section {
   background-color: var(--accent-color);
   transform: translateX(3px);
   box-shadow: 0 2px 5px rgba(74, 116, 185, 0.2);
+}
+
+.pub-published {
+  margin-left: auto;
+  font-size: 0.82rem;
+  color: var(--text-secondary);
+  white-space: nowrap;
 }
 
 /* Awards section */
